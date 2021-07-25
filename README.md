@@ -10,7 +10,7 @@
 
 <h2>New Project Notes </h2>
 
-- For `Azure Sphere: Generate New Project` use  with `Blink` because `HL Core Blank` is  missing `HardwareDefinitions`. 
+- For `Azure Sphere: Generate New Project` use  with `Blink` because `HL Core Blank` is missing `HardwareDefinitions`. 
 
 - Be sure `.gitignore` from `Azure Sphere: Generate New Project` has been removed.
 The `/out/` folder holds important information
