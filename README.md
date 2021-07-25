@@ -9,5 +9,5 @@ After pulling repo - 2 steps
 Be sure .gitignore from Azure Sphere: Generate New Project has been removed. 
 The /out/ folder holds is important information
 
-Error of GPIO in use (etc) was fixed by by running azsphere device recover
+Error of GPIO in use (etc) was fixed by by running `azsphere device recover`
 (probably a better way -> but works for now)
