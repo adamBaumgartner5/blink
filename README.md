@@ -1,13 +1,26 @@
 # Blink
 
-After pulling repo - 2 steps 
-1. delete file /out/CMakeCache.txt
-2. Run CMake: Clean Rebuild from command pallet
--> Build should be successful, and ready to start making changes
+<h2>Clone repository steps </h2>
+After pulling repo - 2 steps to do before editing code
 
+1. Pull repo with `git clone .git`
+2. Delete file /out/CMakeCache.txt
+3. Run `CMake: Clean Rebuild` from command pallet
+4. Build should be successful, and ready to start making changes to main.c
+5. Flash data by going to 'Project/out/ARM-Debug' and using `azsphere device sideload deploy --image-package filename.imagepackage`
 
-Be sure .gitignore from Azure Sphere: Generate New Project has been removed. 
+<h2>New Project Notes </h2>
+
+- Be sure .gitignore from `Azure Sphere: Generate New Project` has been removed.
 The /out/ folder holds is important information
 
-Error of GPIO in use (etc) was fixed by by running `azsphere device recover`
+- `git init` in the folder created by VS Code works great. No need for additional folder layer
+
+
+
+<h2>Workarounds</h2>
+
+- Error of GPIO in use (etc) was fixed by by running `azsphere device recover`
 (probably a better way -> but works for now)
+
+
