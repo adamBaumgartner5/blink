@@ -12,7 +12,7 @@ After pulling repo - 2 steps to do before editing code
 <h2>New Project Notes </h2>
 
 - Be sure .gitignore from `Azure Sphere: Generate New Project` has been removed.
-The /out/ folder holds is important information
+The /out/ folder holds important information
 
 - `git init` in the folder created by VS Code works great. No need for additional folder layer
 
