@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\AdamBaumgartner\Documents\test\Blink -BC:\Users\AdamBaumgartner\Documents\test\Blink\out\ARM-Debug
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\AdamBaumgartner\Documents\Blink -BC:\Users\AdamBaumgartner\Documents\Blink\out\ARM-Debug
   description = Re-running CMake...
   generator = 1
 
