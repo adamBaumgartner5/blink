@@ -1,4 +1,4 @@
-# Blink
+# blink
 
 <h2>Clone repository steps </h2>
 
