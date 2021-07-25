@@ -143,7 +143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug"
+			"value" : "C:/Users/AdamBaumgartner/Documents/test/Blink/out/ARM-Debug"
 		},
 		{
 			"name" : "Blink_IS_TOP_LEVEL",
@@ -167,7 +167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/AdamBaumgartner/Documents/Blink"
+			"value" : "C:/Users/AdamBaumgartner/Documents/test/Blink"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -189,6 +189,10 @@
 			"name" : "CMAKE_AR",
 			"properties" : 
 			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
 				{
 					"name" : "HELPSTRING",
 					"value" : "Path to the archiver in the selected API set targeting High-Level core"
@@ -219,7 +223,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug"
+			"value" : "c:/Users/AdamBaumgartner/Documents/test/Blink/out/ARM-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -315,10 +319,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to the C compiler in the selected API set targeting High-Level core"
+					"value" : "C compiler"
 				}
 			],
-			"type" : "INTERNAL",
+			"type" : "STRING",
 			"value" : "C:/Program Files (x86)/Microsoft Azure Sphere SDK/Sysroots/10/tools/gcc/arm-poky-linux-musleabi-gcc.exe"
 		},
 		{
@@ -623,7 +627,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/AdamBaumgartner/Documents/Blink"
+			"value" : "C:/Users/AdamBaumgartner/Documents/test/Blink"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1115,11 +1119,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "STRING",
-			"value" : "C:\\Program Files (x86)\\Microsoft Azure Sphere SDK\\/CMakeFiles/AzureSphereToolchain.cmake"
+			"type" : "FILEPATH",
+			"value" : "C:/Program Files (x86)/Microsoft Azure Sphere SDK/CMakeFiles/AzureSphereToolchain.cmake"
 		},
 		{
 			"name" : "CMAKE_TRY_COMPILE_TARGET_TYPE",
