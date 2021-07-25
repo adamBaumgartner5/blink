@@ -1,7 +1,6 @@
 # Blink
 
 <h2>Clone repository steps </h2>
-After pulling repo - 2 steps to do before editing code
 
 1. Pull repo with `git clone .git`
 2. Delete file /out/CMakeCache.txt
