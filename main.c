@@ -25,16 +25,24 @@ int main(void)
         return ExitCode_Main_Led;
     }
 
-    const struct timespec sleepTime = {.tv_sec = 2, .tv_nsec = 0};
+    const struct timespec sleepTime = {.tv_sec = 1, .tv_nsec = 0};
 
     while (true) {
-        GPIO_SetValue(led1_r, GPIO_Value_Low);
-        GPIO_SetValue(led1_g, GPIO_Value_Low);
-        GPIO_SetValue(led1_b, GPIO_Value_Low);
-        nanosleep(&sleepTime, NULL);
         GPIO_SetValue(led1_r, GPIO_Value_High);
         GPIO_SetValue(led1_g, GPIO_Value_High);
         GPIO_SetValue(led1_b, GPIO_Value_High);
+        nanosleep(&sleepTime, NULL);
+        GPIO_SetValue(led1_r, GPIO_Value_Low);
+        GPIO_SetValue(led1_g, GPIO_Value_High);
+        GPIO_SetValue(led1_b, GPIO_Value_High);
+        nanosleep(&sleepTime, NULL);
+        GPIO_SetValue(led1_r, GPIO_Value_High);
+        GPIO_SetValue(led1_g, GPIO_Value_Low);
+        GPIO_SetValue(led1_b, GPIO_Value_High);
+        nanosleep(&sleepTime, NULL);
+        GPIO_SetValue(led1_r, GPIO_Value_High);
+        GPIO_SetValue(led1_g, GPIO_Value_High);
+        GPIO_SetValue(led1_b, GPIO_Value_Low);
         nanosleep(&sleepTime, NULL);
     }
 }

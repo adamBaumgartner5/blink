@@ -1,1 +1,0 @@
-{"SchemaVersion":1,"Name":"Blink","ComponentId":"9a6a1d75-ff25-4e54-8189-b0e3a27efb2a","EntryPoint":"/bin/app","CmdArgs":[],"Capabilities":{"Gpio":[8,9,10],"AllowedApplicationConnections":[]},"ApplicationType":"Default","TargetApplicationRuntimeVersion":10}
