@@ -17,10 +17,11 @@ The `/out/` folder holds important information
 
 - `git init` in the folder created by VS Code works great. No need for additional folder layer
 
-<h2>Workarounds</h2>
+<h2>Removing sideloaded code</h2>
 
-- Error of GPIO in use (etc) was fixed by by running `azsphere device recover`
-(probably a better way -> but works for now)
+- If you sideload code, you need to be sure the code already on the device does not use the same resources.
+- use `azsphere device sideload delete --component-id ######`
+- Get component-id from `azsphere device image list-installed`
 
 
 

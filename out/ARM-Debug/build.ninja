@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug/
+cmake_ninja_workdir = C$:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Blink
 
@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug/
 
 build cmake_object_order_depends_target_Blink: phony || CMakeFiles/Blink.dir
 
-build CMakeFiles/Blink.dir/main.c.obj: C_COMPILER__Blink_Debug C$:/Users/AdamBaumgartner/Documents/Blink/main.c || cmake_object_order_depends_target_Blink
+build CMakeFiles/Blink.dir/main.c.obj: C_COMPILER__Blink_Debug C$:/Users/AdamBaumgartner/Documents/blink/main.c || cmake_object_order_depends_target_Blink
   DEFINES = -D_POSIX_C_SOURCE
   DEP_FILE = CMakeFiles\Blink.dir\main.c.obj.d
   FLAGS = -B "C:/Program Files (x86)/Microsoft Azure Sphere SDK/Sysroots/10/tools/gcc" -march=armv7ve -mthumb -mfpu=neon-vfpv4 -mfloat-abi=hard -mcpu=cortex-a7 --sysroot="C:/Program Files (x86)/Microsoft Azure Sphere SDK/Sysroots/10" -g -std=c11 -Wstrict-prototypes -Wno-pointer-sign -ggdb -O0 -fPIC -ffunction-sections -fdata-sections -fno-strict-aliasing -fno-omit-frame-pointer -fno-exceptions -Wall -Wswitch -Wempty-body -Wconversion -Wreturn-type -Wparentheses -Wno-format -Wuninitialized -Wunreachable-code -Wunused-function -Wunused-value -Wunused-variable -Werror=implicit-function-declaration -fstack-protector-strong
-  INCLUDES = -isystem C:/Users/AdamBaumgartner/Documents/Blink/HardwareDefinitions/mt3620_rdb/inc -isystem "C:/Program Files (x86)/Microsoft Azure Sphere SDK/HardwareDefinitions/inc" -isystem "C:/Program Files (x86)/Microsoft Azure Sphere SDK/HardwareDefinitions/inc/hw" -isystem "C:/Program Files (x86)/Microsoft Azure Sphere SDK/Sysroots/10/usr/include"
+  INCLUDES = -isystem C:/Users/AdamBaumgartner/Documents/blink/HardwareDefinitions/mt3620_rdb/inc -isystem "C:/Program Files (x86)/Microsoft Azure Sphere SDK/HardwareDefinitions/inc" -isystem "C:/Program Files (x86)/Microsoft Azure Sphere SDK/HardwareDefinitions/inc/hw" -isystem "C:/Program Files (x86)/Microsoft Azure Sphere SDK/Sysroots/10/usr/include"
   OBJECT_DIR = CMakeFiles\Blink.dir
   OBJECT_FILE_DIR = CMakeFiles\Blink.dir
 
@@ -86,7 +86,7 @@ build MakeImage: phony CMakeFiles/MakeImage Blink.imagepackage approotBlink/bin/
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\AdamBaumgartner\Documents\Blink\out\ARM-Debug && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\AdamBaumgartner\Documents\Blink -BC:\Users\AdamBaumgartner\Documents\Blink\out\ARM-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\AdamBaumgartner\Documents\blink\out\ARM-Debug && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\AdamBaumgartner\Documents\blink -BC:\Users\AdamBaumgartner\Documents\blink\out\ARM-Debug"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -98,7 +98,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\AdamBaumgartner\Documents\Blink\out\ARM-Debug && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\AdamBaumgartner\Documents\Blink -BC:\Users\AdamBaumgartner\Documents\Blink\out\ARM-Debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\AdamBaumgartner\Documents\blink\out\ARM-Debug && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\AdamBaumgartner\Documents\blink -BC:\Users\AdamBaumgartner\Documents\blink\out\ARM-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -116,7 +116,7 @@ build CMakeFiles/MakeImage | ${cmake_ninja_workdir}CMakeFiles/MakeImage: phony B
 # Custom command for Blink.imagepackage
 
 build Blink.imagepackage | ${cmake_ninja_workdir}Blink.imagepackage: CUSTOM_COMMAND ../../app_manifest.json approotBlink/bin/app || Blink.out
-  COMMAND = cmd.exe /C "cd /D C:\Users\AdamBaumgartner\Documents\Blink\out\ARM-Debug && "C:\Program Files (x86)\Microsoft Azure Sphere SDK\Tools\azsphere.exe" image-package pack-application -v -a C:/Users/AdamBaumgartner/Documents/Blink/app_manifest.json -i C:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug/approotBlink -o C:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug/Blink.imagepackage -s "10" -p "C:/Users/AdamBaumgartner/Documents/Blink/HardwareDefinitions/mt3620_rdb,C:/Program Files (x86)/Microsoft Azure Sphere SDK/HardwareDefinitions/" -f template_appliance.json"
+  COMMAND = cmd.exe /C "cd /D C:\Users\AdamBaumgartner\Documents\blink\out\ARM-Debug && "C:\Program Files (x86)\Microsoft Azure Sphere SDK\Tools\azsphere.exe" image-package pack-application -v -a C:/Users/AdamBaumgartner/Documents/blink/app_manifest.json -i C:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug/approotBlink -o C:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug/Blink.imagepackage -s "10" -p "C:/Users/AdamBaumgartner/Documents/blink/HardwareDefinitions/mt3620_rdb,C:/Program Files (x86)/Microsoft Azure Sphere SDK/HardwareDefinitions/" -f template_appliance.json"
   DESC = Generating Blink.imagepackage
   restat = 1
 
@@ -125,7 +125,7 @@ build Blink.imagepackage | ${cmake_ninja_workdir}Blink.imagepackage: CUSTOM_COMM
 # Custom command for approotBlink\bin\app
 
 build approotBlink/bin/app | ${cmake_ninja_workdir}approotBlink/bin/app: CUSTOM_COMMAND Blink.out || Blink.out
-  COMMAND = cmd.exe /C "cd /D C:\Users\AdamBaumgartner\Documents\Blink\out\ARM-Debug && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug/approotBlink/bin && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug/Blink.out C:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug/approotBlink/bin/app && "C:\Program Files (x86)\Microsoft Azure Sphere SDK\Sysroots\10\tools\gcc\arm-poky-linux-musleabi-strip.exe" --strip-unneeded C:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug/approotBlink/bin/app"
+  COMMAND = cmd.exe /C "cd /D C:\Users\AdamBaumgartner\Documents\blink\out\ARM-Debug && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug/approotBlink/bin && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug/Blink.out C:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug/approotBlink/bin/app && "C:\Program Files (x86)\Microsoft Azure Sphere SDK\Sysroots\10\tools\gcc\arm-poky-linux-musleabi-strip.exe" --strip-unneeded C:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug/approotBlink/bin/app"
   DESC = Generating approotBlink/bin/app
   restat = 1
 
@@ -140,7 +140,7 @@ build Blink: phony Blink.out
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug
+# Folder: C:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug
 
 build all: phony Blink.out MakeImage
 

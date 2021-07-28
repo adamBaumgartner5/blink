@@ -143,7 +143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug"
+			"value" : "C:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug"
 		},
 		{
 			"name" : "Blink_IS_TOP_LEVEL",
@@ -167,7 +167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/AdamBaumgartner/Documents/Blink"
+			"value" : "C:/Users/AdamBaumgartner/Documents/blink"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -219,7 +219,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug"
+			"value" : "c:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",

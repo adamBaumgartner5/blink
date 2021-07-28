@@ -41,7 +41,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Blink::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Blink-Debug-705b3b611eb51d0ab02c.json",
+					"jsonFile" : "target-Blink-Debug-ed2df544f38db6455f8d.json",
 					"name" : "Blink",
 					"projectIndex" : 0
 				},
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/AdamBaumgartner/Documents/Blink/out/ARM-Debug",
-		"source" : "C:/Users/AdamBaumgartner/Documents/Blink"
+		"build" : "C:/Users/AdamBaumgartner/Documents/blink/out/ARM-Debug",
+		"source" : "C:/Users/AdamBaumgartner/Documents/blink"
 	},
 	"version" : 
 	{

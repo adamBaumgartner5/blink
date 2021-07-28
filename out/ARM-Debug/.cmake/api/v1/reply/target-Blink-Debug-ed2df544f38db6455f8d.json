@@ -222,7 +222,7 @@
 				{
 					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Users/AdamBaumgartner/Documents/Blink/HardwareDefinitions/mt3620_rdb/inc"
+					"path" : "C:/Users/AdamBaumgartner/Documents/blink/HardwareDefinitions/mt3620_rdb/inc"
 				},
 				{
 					"backtrace" : 11,
