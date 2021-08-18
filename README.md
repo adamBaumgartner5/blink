@@ -23,5 +23,7 @@ The `/out/` folder holds important information
 - use `azsphere device sideload delete --component-id ######`
 - Get component-id from `azsphere device image list-installed`
 
+<h2>Blink without using nanosleep</h2>
+![debugger_view](https://imgur.com/a/W3HToRg)
 
 
